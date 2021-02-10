@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+        <title>L'oracle</title>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Russo+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+2|Lobster&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Solar_prominence_from_STEREO_spacecraft_September_29%2C_2008.jpg/280px-Solar_prominence_from_STEREO_spacecraft_September_29%2C_2008.jpg" />
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><strong>L'oracle</strong></h1>
+        <audio src="medias/musique-dascenseur.mp3" controls loop autoplay>Veuillez mettre à jour votre navigateur.</audio>
+        <nav>
+            <ul>
+                <li><a href="page1.html", title="Clique pour retourner à l'Acceuil ">Accueil</a></li>
+                <li><a href="page2.html", title="Clique pour accèder à la page de contact">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+    <div class="lignes">
+        <div class="l1"></div>
+    </div>
+
+        </form>
+    </div>
+    <div class="container">
+        <h1 class="contact">Contact</h1>
+
+        <form class="form">
+            <div class="form__group">
+                <input type="text" class="form__input" id="nom" placeholder="Votre Nom" required>
+                <label for="nom" class="form__label">Votre Nom</label>
+            </div>
+            <div class="form__group">
+                <input type="email" class="form__input" id="email" placeholder="Votre Email" required>
+                <label for="email" class="form__label">Votre Email</label>
+            </div>
+            <div class="form__group">
+                <input type="number" class="form__input" id="age" min="16" max="99" step="1" placeholder="Votre Age" required>
+                <label for="age" class="form__label">Votre Age</label>
+            </div>
+            <div class="form__message">
+                <label for="message" class="form__message-label">
+                    Message:
+                </label>
+                <textarea name="" id="message" cols="30" rows="10" class="form__input message__input" required></textarea>
+            </div>
+
+            <div class="submit">
+                <button class="submitBtn">Envoyer &rarr;</button>
+                <button class="resetbtn" type="reset">Effacer</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <ul class="medias">
+        <li class="bulle"><img src="medias/fb.svg" class="logo-medias"></li>
+        <li class="bulle"><img src="medias/insta.svg" class="logo-medias"></li>
+        <li class="bulle"><img src="medias/yt.svg" class="logo-medias"></li>
+        <li class="bulle"><img src="medias/github.svg" class="logo-medias"></li>
+    </ul>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="page2.js"></script>
+</body>
+</html>
