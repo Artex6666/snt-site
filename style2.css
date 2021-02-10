@@ -1,0 +1,258 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav a
+{
+    font-family: Russo One, cursive;
+    font-size: 2.5em;
+    color: wheat;
+    text-decoration: none;
+    margin: 0.8em;
+    opacity: 0.8;
+    margin-right: 2em;
+}
+nav a:hover
+{
+    font-size: 2.5em;
+    color: wheat;
+    text-decoration: none;
+    opacity: 1;
+}
+header
+{
+    justify-content: space-between;
+    align-items: stretch;
+    top: 0;
+    padding: 2em 0 2em 0;
+    position: fixed;
+    background-color: rgba( 0,0,0,0.5);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+header h1
+{
+    opacity: 1;
+    color: #f1f1f1;
+    margin-left: 2%;
+    font-style: oblique ;
+    font-weight: bold;
+    font-family: Balsamiq Sans, Helvetica, sans-serif;
+    font-size: 3em;
+}
+.lignes {
+    position: absolute;
+    top: 5em;
+    left: 2%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Baloo 2", cursive;
+    display: flex;
+    background: url('https://lecolefrancaise.fr/wp-content/uploads/2020/03/Comment-devenir-Photographe-Professionnel-et-Form%C3%A9-LEcole-Fran%C3%A7aise.jpg');
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    background-size: cover;
+}
+
+.contact {
+    font-family: "Lobster", cursive;
+    padding: 0 15px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.contact {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 68%,
+        #6fcffb 68%,
+        #6fcffb 95%,
+        transparent 95%
+    );
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 30px 50px;
+    margin-top: 10%;
+}
+
+.form__group {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form__label {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.form__input {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 4px solid transparent;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.form__input::-webkit-input-placeholder {
+    color: #000;
+    transform: translateY(4px);
+}
+
+.form__input:focus::-webkit-input-placeholder {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form__input:focus {
+    outline: none;
+    border-bottom: 4px solid #a5ee6e;
+    width: 66.6666%;
+    transition: all 0.3s;
+}
+
+.form__input:focus:invalid {
+    border-bottom: 4px solid #e94a2f;
+}
+
+.form__input:focus + .form__label {
+    opacity: 1;
+    font-size: 20px;
+}
+
+.form__message,
+.form__message .message__input {
+    width: 100%;
+}
+
+.submitBtn {
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #6fcffb;
+    border-radius: 30px;
+    margin: 20px auto;
+    font-size: 25px;
+    font-family: inherit;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.resetbtn {
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #da3b1f;
+    border-radius: 30px;
+    margin: 20px auto;
+    font-size: 25px;
+    font-family: inherit;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.submit {
+    display: flex;
+}
+.submitBtn:hover {
+    transform: scale(1.02) translateY(-2px);
+}
+.submitBtn:active {
+    transform: scale(0.98) translateY(1px);
+}
+.resetbtn:hover {
+    transform: scale(1.02) translateY(-2px);
+}
+.resetbtn:active {
+    transform: scale(0.98) translateY(1px);
+}
+
+ul
+{
+    list-style-type: none;
+}
+section{
+    width: 100%;
+}
+.l1 {
+    width: 11em;
+    height: 0.4em;
+    background: #000000;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
